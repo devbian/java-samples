@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2558260336">
-    <data-source source="LOCAL" name="MySQL - @localhost" uuid="942db336-2b96-4f75-bc7e-3dc9ed773ad1">
+  <component name="DataSourceManagerImpl" format="xml" hash="3641155137">
+    <data-source source="LOCAL" name="MySQL - world@localhost" uuid="942db336-2b96-4f75-bc7e-3dc9ed773ad1">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/world</jdbc-url>
       <user-name>root</user-name>
       <user-password>dfd8dfc5dfc5dfde</user-password>
       <driver-properties>
@@ -13,17 +13,6 @@
         <property name="tinyInt1isBit" value="false" />
       </driver-properties>
       <libraries />
-    </data-source>
-    <data-source source="LOCAL" name="com:devbian:domain:hibernate.cfg.xml" uuid="327bc366-8d38-4efd-8128-f29cb88ec26d">
-      <driver-ref>h2.embedded</driver-ref>
-      <jdbc-driver>org.h2.Driver</jdbc-driver>
-      <jdbc-url>jdbc:h2:~/test</jdbc-url>
-      <user-name>sa</user-name>
-      <libraries>
-        <library>
-          <url>file://D:\workspace\java_web\hibernate_xml\lib\h2-1.4.181.jar</url>
-        </library>
-      </libraries>
     </data-source>
   </component>
 </project>
