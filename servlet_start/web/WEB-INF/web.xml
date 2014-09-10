@@ -15,4 +15,45 @@
         <servlet-name>HelloServlet</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetCookies</servlet-name>
+        <servlet-class>com.devbian.cookie.SetCookiesServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>GetCookies</servlet-name>
+        <servlet-class>com.devbian.cookie.GetCookiesServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DemoSessionServlet</servlet-name>
+        <servlet-class>com.devbian.session.DemoSessionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetCookies</servlet-name>
+        <url-pattern>/servlet/setcookies</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>GetCookies</servlet-name>
+        <url-pattern>/servlet/getCookies</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>DemoSessionServlet</servlet-name>
+        <url-pattern>/servlet/session</url-pattern>
+    </servlet-mapping>
+
+    <listener>
+        <listener-class>com.devbian.session.CounterListener</listener-class>
+    </listener>
+
+    <filter>
+        <filter-name>CounterFilter</filter-name>
+        <filter-class>com.devbian.filter.CounterFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>CounterFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
 </web-app>

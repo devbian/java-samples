@@ -23,8 +23,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="java_web" />
+        <module name="spring_rest" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring_rest" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 
