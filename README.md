@@ -1,5 +1,6 @@
 java ee的一些例子
 ========
+src：这下面是实现了一个最简单的web server，访问web,读取相应目录的文件，写入response。
 
 servlet_start: 里面是一些servlet的知识点，cookie，session，filter, jdbc
 
