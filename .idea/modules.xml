@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/hibernate_xml/hibernate_xml.iml" filepath="$PROJECT_DIR$/hibernate_xml/hibernate_xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_web.iml" filepath="$PROJECT_DIR$/java_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/servlet_start/servlet_start.iml" filepath="$PROJECT_DIR$/servlet_start/servlet_start.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_rest/spring_rest.iml" filepath="$PROJECT_DIR$/spring_rest/spring_rest.iml" />

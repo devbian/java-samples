@@ -16,22 +16,18 @@
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
 
-<<<<<<< HEAD
-    <welcome-file-list>
-        <welcome-file>/index.jsp</welcome-file>
-    </welcome-file-list>
-=======
+
     <servlet>
         <servlet-name>SetCookies</servlet-name>
-        <servlet-class>com.devbian.cookie.SetCookiesServlet</servlet-class>
+        <servlet-class>com.devbian.domain.cookie.SetCookiesServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>GetCookies</servlet-name>
-        <servlet-class>com.devbian.cookie.GetCookiesServlet</servlet-class>
+        <servlet-class>com.devbian.domain.cookie.GetCookiesServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>DemoSessionServlet</servlet-name>
-        <servlet-class>com.devbian.session.DemoSessionServlet</servlet-class>
+        <servlet-class>com.devbian.domain.session.DemoSessionServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>SetCookies</servlet-name>
@@ -49,17 +45,20 @@
     </servlet-mapping>
 
     <listener>
-        <listener-class>com.devbian.session.CounterListener</listener-class>
+        <listener-class>com.devbian.domain.session.CounterListener</listener-class>
     </listener>
 
     <filter>
         <filter-name>CounterFilter</filter-name>
-        <filter-class>com.devbian.filter.CounterFilter</filter-class>
+        <filter-class>com.devbian.domain.filter.CounterFilter</filter-class>
     </filter>
 
     <filter-mapping>
         <filter-name>CounterFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
->>>>>>> origin/master
+
+    <welcome-file-list>
+        <welcome-file>/index.jsp</welcome-file>
+    </welcome-file-list>
 </web-app>
