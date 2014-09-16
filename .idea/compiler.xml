@@ -22,7 +22,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="java_web" />
+        <module name="shiro-tutorial" />
         <module name="spring_rest" />
       </profile>
     </annotationProcessing>

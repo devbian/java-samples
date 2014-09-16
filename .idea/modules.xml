@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java_web.iml" filepath="$PROJECT_DIR$/java_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/servlet_start/servlet_start.iml" filepath="$PROJECT_DIR$/servlet_start/servlet_start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shiro-tutorial/shiro-tutorial.iml" filepath="$PROJECT_DIR$/shiro-tutorial/shiro-tutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_rest/spring_rest.iml" filepath="$PROJECT_DIR$/spring_rest/spring_rest.iml" />
     </modules>
   </component>
