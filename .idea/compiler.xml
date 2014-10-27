@@ -22,8 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="hali" />
+        <module name="parent" />
         <module name="shiro-tutorial" />
+        <module name="spring-shiro" />
         <module name="spring_rest" />
+        <module name="webserver" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

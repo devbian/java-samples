@@ -7,9 +7,17 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring_rest/pom.xml" />
+        <option value="$PROJECT_DIR$/webserver/pom.xml" />
+        <option value="$PROJECT_DIR$/parent/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/hali/pom.xml" />
+        <option value="$PROJECT_DIR$/shiro-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-shiro/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
